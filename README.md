@@ -27,7 +27,7 @@ Before running the app, make sure you have the following installed:
 ```markdown
 Install them with:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 ----------------
