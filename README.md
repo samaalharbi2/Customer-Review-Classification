@@ -29,3 +29,45 @@ Install them with:
 ```bash
 pip install -r requirements.txt
 
+---
+## 🧪 Testing
+
+This project does not include automated testing scripts, but model performance was evaluated using:
+
+- ✅ Classification report  
+- ✅ Confusion matrix  
+- ✅ Accuracy, precision, recall, and F1-score metrics  
+
+---
+
+## 📊 Project Instructions
+
+- Cleaned and explored real customer reviews dataset  
+- Preprocessed text columns using **spaCy** (lemmatization, stopword removal)  
+- Built a full `scikit-learn` pipeline combining:
+  - `StandardScaler` for numerical features  
+  - `OneHotEncoder` for categorical features  
+  - `TfidfVectorizer` for text columns  
+- Trained a `RandomForestClassifier` and optimized it using `GridSearchCV`  
+- Saved the final trained pipeline using `joblib`  
+
+---
+
+## 🛠 Built With
+
+| Tool        | Description                              |
+|-------------|------------------------------------------|
+| 🧠 scikit-learn | ML modeling and pipelines              |
+| ✍️ spaCy        | Text preprocessing and lemmatization   |
+| 📊 pandas, numpy | Data wrangling and transformation     |
+| 🎨 matplotlib, seaborn | Data visualization             |
+| 🌐 Streamlit    | Web interface for interactive prediction |
+
+---
+
+## 📜 License
+
+This project was created for educational purposes as part of the **Udacity Machine Learning Nanodegree Program**.  
+All concepts and code are based on the provided project instructions and open datasets.
+
+
