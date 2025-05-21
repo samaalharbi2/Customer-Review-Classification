@@ -23,14 +23,12 @@ Before running the app, make sure you have the following installed:
 - numpy
 - joblib
 - dill
-
-```markdown
-Install them with:
-
+  
+# Install them with:
 ```
 pip install -r requirements.txt
 ```
-----------------
+
 ## 🧪 Testing
 
 This project does not include automated testing scripts, but model performance was evaluated using:
