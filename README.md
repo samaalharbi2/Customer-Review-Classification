@@ -25,9 +25,9 @@ Before running the app, make sure you have the following installed:
 - dill
   
 # Install them with:
-```
-pip install -r requirements.txt
-```
+Clone repository: ``` git clone [repository-url] cd [repository-name] ```
+Create virtual environment: ```  python -m venv venv venv\Scripts\activate ```
+Install dependencies: ``` pip install -r requirements.txt ```
 
 ## 🧪 Testing
 
@@ -66,7 +66,6 @@ This project does not include automated testing scripts, but model performance w
 
 ## 📜 License
 
-This project was created for educational purposes as part of the **Udacity Machine Learning Nanodegree Program**.  
-All concepts and code are based on the provided project instructions and open datasets.
+[License](LICENSE.txt)
 
 
