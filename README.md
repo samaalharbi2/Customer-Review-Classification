@@ -16,18 +16,15 @@ Before running the app, make sure you have the following installed:
 
 - Python 3.9+
 - pip
-- spaCy
-- Streamlit
+- spaCy 
 - scikit-learn
 - pandas
 - numpy
-- joblib
-- dill
   
 # Install them with:
-Clone repository: ``` git clone [repository-url] cd [repository-name] ```
-Create virtual environment: ```  python -m venv venv venv\Scripts\activate ```
-Install dependencies: ``` pip install -r requirements.txt ```
+- Clone repository: ``` git clone [repository-url] cd [repository-name] ```
+- Create virtual environment: ```  python -m venv venv venv\Scripts\activate ```
+- Install dependencies: ``` pip install -r requirements.txt ```
 
 ## 🧪 Testing
 
@@ -60,7 +57,7 @@ This project does not include automated testing scripts, but model performance w
 | ✍️ spaCy        | Text preprocessing and lemmatization   |
 | 📊 pandas, numpy | Data wrangling and transformation     |
 | 🎨 matplotlib, seaborn | Data visualization             |
-| 🌐 Streamlit    | Web interface for interactive prediction |
+
 
 ---
 
